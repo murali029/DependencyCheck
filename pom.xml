@@ -142,7 +142,7 @@ Copyright (c) 2012 - Jeremy Long
         <taglist-maven-plugin.version>3.0.0</taglist-maven-plugin.version>
         <versions-maven-plugin.version>2.13.0</versions-maven-plugin.version>
         <jetbrains.annotations.version>23.0.0</jetbrains.annotations.version>
-        <com.h2database.version>2.1.214</com.h2database.version>
+        <com.h2database.version>2.2.220</com.h2database.version>
         <commons-cli.version>1.5.0</commons-cli.version>
         <commons-io.version>2.11.0</commons-io.version>
         <commons-lang3.version>3.12.0</commons-lang3.version>
@@ -170,7 +170,7 @@ Copyright (c) 2012 - Jeremy Long
         <com.h3xstream.retirejs.core.version>3.0.3</com.h3xstream.retirejs.core.version>
         <jackson.version>2.13.4</jackson.version>
         <!--necassary for some IDEs to be able to execute test cases (Netbeans)-->
-        <surefireArgLine />
+        <surefireArgLine/>
         
         <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
         <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
@@ -777,7 +777,7 @@ Copyright (c) 2012 - Jeremy Long
                             <target name="copy xsd to site">
                                 <copy todir="target/site/">
                                     <fileset dir="core/src/main/resources/schema/">
-                                        <include name="**/*.xsd" />
+                                        <include name="**/*.xsd"/>
                                     </fileset>
                                 </copy>
                             </target>
